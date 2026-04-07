@@ -1,0 +1,17 @@
+
+
+
+<suite name="Suite1" parallel="methods" thread-count="2">
+
+    <test name="ParallelMethodTest">
+        <classes>
+            <class name="SeleniumPrograms.Class1"/>
+                <methods>
+                    <include name="test1"/>
+                    <include name="test3"/>//test 2 skip
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+

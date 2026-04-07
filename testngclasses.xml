@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="namelogin">
+
+<test name="logintest1">
+
+<classes>
+
+<class name="SeleniumPrograms.SeleniumPrograms1"/>
+
+</classes>
+
+
+</test>
+
+<test name="logintest2">
+
+<classes>
+
+<class name="SeleniumPrograms.SeleniumPrograms2"/>
+
+</classes>
+
+
+</test>
+
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="groupparalleltest1" parallel="parallelgroupstest1" thread-count="2"> 
+<test>
+
+<groups>
+<run>
+<include name="test1"/>
+</run>
+</groups>
+
+<classes>
+<class name="test.namelogin"/>
+</classes>
+
+</test>
+</suite>

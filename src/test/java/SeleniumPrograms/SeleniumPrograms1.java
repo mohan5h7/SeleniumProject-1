@@ -29,7 +29,7 @@ public class SeleniumPrograms1 {
 	@BeforeMethod
 	public void setup() {
 	
-		 spark = new ExtentSparkReporter("Selenium.html");
+		 spark = new ExtentSparkReporter("Selenium1.html");
 		 extent = new ExtentReports();
 	     extent.attachReporter(spark);
 	     test = extent.createTest("SeleniumPrograms1");

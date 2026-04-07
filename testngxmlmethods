@@ -1,0 +1,14 @@
+<suite name="Suite1">
+
+    <test name="MethodSelectionTest">
+        <classes>
+            <class name="SeleniumPrograms.Class1">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
